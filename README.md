@@ -1,0 +1,3 @@
+Esboço do programa feito durante a imersao dev da alura com google gemini.
+
+Ainda trarei versao mais definitiva...
