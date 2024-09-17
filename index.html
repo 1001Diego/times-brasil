@@ -3,7 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="photos/cbf.jpg" type="icone da cbf">
     <title>Futebol do Brasil</title>
+        <!--faz link entre pasta CSS com codigo html-->
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -12,21 +14,34 @@
         <h2>Conheça os times do Brasil:</h2>
     </header>
     <main>
+        <!--sessao para o botao-->
     <section>   
-        <input type="text" placeholder="Procure o time"
+        <input type="text" placeholder= "Procure o time"
         id = "campo-pesquisa">
-        <button onclick="pesquisar()">Pesquisar</button>
-        <p id="resultado"></p>
+        <button onclick="pesquisar()"><strong>Pesquisar</strong></button>
     </section>
+        <!--resultados da pesquisa-->
     <section class="resultados-pesquisa"
              id="resultados-pesquisa">
-</section>
+    </section>
     </main>
     <footer>
-        <p>2024 - Futebol Do Brasil. Todos os direitos reservados</p>
-        <p>Entar em contato pelo email: timesbrasil@gmail.com.br</p>
+        <p>
+            <em> <!--italico-->
+            <strong> <!--negrito-->
+                2024 - Futebol Do Brasil. Todos os direitos reservados</strong></em></p>
+        <p><em><strong>Entar em contato pelo email: diegogomesgontijo1001@gmail.com</strong></em></p>
+
+    <a href="https://github.com/1001Diego" target="_blank">
+        <img src="photos/git.jpg" height="2%" width="2%"
+        alt="icone github"></a>
+    <a href="https://www.linkedin.com/in/diego-gomes-gontijo-b48507329/" target="_blank">
+        <img src="photos/linkedin.jpg" height="2%" width="2%"
+        alt="icone linkedin"></a>
     </footer>
+    <!--faz link entre pasta dados.js com codigo html-->
     <script src="dados.js"></script>
+    <!--faz link entre pasta app.js com codigo html-->
     <script src="app.js"></script>
 </body>
 </html>
